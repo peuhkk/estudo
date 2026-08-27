@@ -1,4 +1,4 @@
-package entities;
+package curso.entities;
 
 public class Triangle {
 

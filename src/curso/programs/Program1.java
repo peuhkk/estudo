@@ -1,6 +1,6 @@
-package poo;
+package curso.programs;
 
-import entities.Triangle;
+import curso.entities.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;

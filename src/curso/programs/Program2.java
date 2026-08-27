@@ -1,6 +1,6 @@
-package poo;
+package curso.programs;
 
-import entities.Product;
+import curso.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
