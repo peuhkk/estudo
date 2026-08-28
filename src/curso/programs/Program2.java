@@ -21,20 +21,17 @@ public class Program2 {
         System.out.println("Quantity in stock: ");
         p.Quantity = sc.nextInt();
 
-        System.out.println("Product data: "+ p.Name + " $ "
-                + p.Price +", " + p.Quantity +" units, Total: $ " + p.TotalValueInStock() );
+        System.out.println(p.toString());
 
         System.out.println("Enter the number of products to be added in stock: ");
         p.AddProducts(sc.nextInt());
 
-        System.out.println("Product data: "+ p.Name + " $ "
-                + p.Price +", " + p.Quantity +" units, Total: $ " + p.TotalValueInStock() );
+        System.out.println(p);
 
         System.out.println("Enter the number of products to be removed from stock: ");
         p.RemoveProducts(sc.nextInt());
 
-        System.out.println("Product data: "+ p.Name + " $ "
-                + p.Price +", " + p.Quantity +" units, Total: $ " + p.TotalValueInStock() );
+        System.out.println(p);
 
     }
 }

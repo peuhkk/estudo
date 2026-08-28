@@ -18,4 +18,14 @@ public class Product {
         this.Quantity -= Quantity;
     }
 
+    public String toString(){
+     return "Product data: "
+             +Name
+             + ", $ "
+             + String.format("%.2f",Price)
+             +", "
+             + Quantity
+             + " units, Total: $"
+             +String.format("%.2f",TotalValueInStock());
+    }
 }
