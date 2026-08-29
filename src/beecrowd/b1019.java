@@ -12,10 +12,10 @@ public class b1019 {
         int n = sc.nextInt();
 
         int horas = n / 3600;
-        n = n % 60;
+        n = n % 3600;
         int minutos = n / 60;
         n = n % 60;
-        int segundos = n / 60;
+        int segundos = n;
 
         System.out.println(horas+":"+minutos+":"+segundos);
     }
